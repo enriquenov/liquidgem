@@ -1,0 +1,261 @@
+body {
+  background-color: #EDEDED;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  border-bottom: 3px solid #A3A3A3;
+  border-radius: 3px;
+  margin: 35px auto 0;
+  padding-bottom: 15px;
+  width: 95%;
+}
+
+div.logo {
+  display: inline-block;
+  width: 30%;
+}
+
+div.logo i {
+  color: #F393A7;
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+div.logo h3 {
+  display: inline-block;
+  color: #3E2F22;
+  font-family: 'Cookie', serif;
+  font-size: 36px;
+  padding-left: 5px;
+}
+
+nav ul {
+  display: inline-block;
+  float: right;
+  text-align: center;
+  width: 35%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 30px 5%;
+}
+
+nav ul li a {
+  color: #3E2F22;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #F393A7;
+}
+
+section.main {
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+section.main div.intro {
+  color: #3E2F22;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+section.main div.intro h1 {
+  font-size: 30px;
+  letter-spacing: 1.2px;
+  margin-bottom: 15px;
+}
+
+section.main div.intro h1 span {
+  color: #F393A7;
+}
+
+section.main div.intro p {
+  font-size: 20px;
+  margin: 0;
+}
+
+section.main div.cover {
+  background-image: url("http://www.sunsetcoastalgrill.com/img/sunset-home-3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  border-radius: 10px;
+  height: 300px;
+  margin: 60px auto;
+  width: 95%;
+}
+
+section.second {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+section.second div.about, section.second div.work {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  width: 47%;
+}
+
+section.second div.about {
+  float: left;
+}
+
+section.second div.work {
+  float: right;
+}
+
+section.second div h2 {
+  color: #F393A7;
+  font-family: 'Cookie';
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+section.second div p {
+  color: #3E2F22;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+section.links {
+  width: 90%;
+  margin: 330px auto 0;
+  /*WTF WITH THAT MARGIN*/
+}
+
+section.links div.top, section.links div.bottom {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section.links div.projects {
+  background-color: #FFF;
+  border-radius: 15px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 1%;
+  width: 17%;
+}
+
+section.links div.projects img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 160px;
+  width: 100%;
+}
+
+section.links div.projects a {
+  text-decoration: none;
+}
+
+section.links div.projects a h3 {
+  color: black;
+  font-size: 21px;
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 12px;
+  text-align: left;
+}
+
+section.links div.projects a h3:hover {
+  text-decoration: underline;
+}
+
+section.links div.projects p {
+  color: #F393A7;
+  font-size: 16px;
+  margin: 0;
+  padding: 5px 0 12px 12px;
+  text-align: left;
+}
+
+section.links div.thankyou {
+  color: #F393A7;
+  font-family: 'Cookie', sans-serif;
+  font-size: 32px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+footer {
+  background-color: #2D2D2D;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+footer form {
+  display: inline-block;
+  float: left;
+  margin-left: 3%;
+  text-align: left;
+  width: 65%;
+}
+
+footer form h3 {
+  color: #F393A7;
+  font-family: 'Cookie', sans-serif;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+footer form input, footer form textarea {
+  background-color: #EDEDED;
+  border-radius: 3px;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+  width: 60%;
+}
+
+::-webkit-input-placeholder, ::-webkit-textarea-placeholder {
+
+  color: #2D2D2D;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer form button {
+  background-color: #2D2D2D;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  padding: 0;
+  text-decoration: none;
+}
+
+footer ul {
+  display: inline-block;
+  margin: 135px 0;
+  width: 25%;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer ul li a i {
+  background-color: #F393A7;
+  color: #2D2D2D;
+  padding: 6px 7px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  padding: 6px 9px;
+}
